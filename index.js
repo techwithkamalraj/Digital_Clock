@@ -8,7 +8,7 @@ function digitalClock() {
         let seconds = date.getSeconds();
 
         if (hh => 12) {
-            document.getElementById("am-pm").innerHTML = "AM";
+            document.getElementById("am-pm").innerHTML = "PM";
         }
         document.getElementById("hour").innerHTML = hours + ":";
         document.getElementById("minute").innerHTML = minutes + ":";
