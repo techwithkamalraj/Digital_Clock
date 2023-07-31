@@ -10,6 +10,9 @@ function digitalClock() {
         if (hh => 12) {
             document.getElementById("am-pm").innerHTML = "PM";
         }
+        else if (hh <= 12) {
+            document.getElementById("am-pm").innerHTML = "AM";
+        }
         document.getElementById("hour").innerHTML = hours + ":";
         document.getElementById("minute").innerHTML = minutes + ":";
         document.querySelector("#second").innerHTML = seconds;
